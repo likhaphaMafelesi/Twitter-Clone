@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Assets/favicon-twitter.png">
+    <title>Twitter Page</title>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="data:image/png;base64,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" alt="twitter logo">
+        <div class="sidebar-option active">
+            <span class="material-symbols-outlined">home</span>
+            <h2>Home</h2>
+        </div>
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">search</span>
+            <h2>Explore</h2>
+        </div>
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">notifications</span>
+            <h2>Notifications</h2>
+        </div>
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">mail</span>
+            <h2>Messages</h2>
+        </div>
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">bookmark</span>
+            <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">list_alt</span>
+            <h2>Lists</h2>
+        </div>
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">person</span>
+            <h2>Profile</h2>
+        </div>
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">more_horiz</span>
+            <h2>More</h2>
+        </div>
+        
+        <div class="sidebar-option">
+            <span class="material-symbols-outlined">account_circle</span>
+            <h2>Accounts</h2>
+        </div>
+        <button class="sidebar_tweet">Tweet</button>
+        
+    </div>
+    <!-- feed starts -->
+    <div class="feed">
+        <div class="feed_header">
+            <h2>Home</h2>
+        </div>
+        <!-- tweetbox stars -->
+        <div class="tweet-box">
+            <form>
+                <div class="tweetbox_input">
+                    <img src="https://i.pinimg.com/236x/35/67/3c/35673c1141e013cec78a610150a6fddb.jpg" alt="profile picture">
+                    <input type="text" placeholder="What is happening?!">
+                </div>
+                <button class="tweetbox_tweetButton">Tweet</button>
+            </form>
+        </div>
+        <!-- tweetbox ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post_avatar">
+                <img src="https://pbs.twimg.com/media/GG3kCm4WQAEH9tP?format=png&name=small" alt="">
+            </div>
+
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headertext">
+                        <h3>
+                            Caroline B
+                            <span class="post_headerspecial">
+                                <span class="material-symbols-outlined post_badge">verified</span>@Caroline
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerdescription">
+                        <p>This is the best car you can get.</p>
+                    </div>
+                </div>
+                <img src="https://pbs.twimg.com/media/GG3kCm4WQAEH9tP?format=png&name=small" alt="">
+
+                <div class="post_footer">
+                    <span class="material-symbols-outlined">repeat</span>
+                    <span class="material-symbols-outlined">favorite_border</span>
+                    <span class="material-symbols-outlined">publish</span>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post_avatar">
+                <img src="https://pbs.twimg.com/media/GG3kCm4WQAEH9tP?format=png&name=small" alt="">
+            </div>
+
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headertext">
+                        <h3>
+                            Bontle B
+                            <span class="post_headerspecial">
+                                <span class="material-symbols-outlined post_badge">verified</span>@BontleB
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerdescription">
+                        <p>This is the best car we can offer you.</p>
+                    </div>
+                </div>
+                <img src="https://pbs.twimg.com/media/GG3kCm4WQAEH9tP?format=png&name=small" alt="">
+
+                <div class="post_footer">
+                    <span class="material-symbols-outlined">repeat</span>
+                    <span class="material-symbols-outlined">favorite_border</span>
+                    <span class="material-symbols-outlined">publish</span>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+        
+    </div>
+    <div class="widgets">
+        <div class="widgets_input">
+            <span class="material-symbols-outlined searchicon">search</span>
+            <input type="text" placeholder="Search Twitter">
+        </div>
+        <div class="widgets-widgetcontainer">
+            <h2>What is happening?</h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

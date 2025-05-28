@@ -1,0 +1,230 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar img {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+
+}
+.sidebar-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-option .material-symbols-outlined {
+    padding: 20px;
+}
+.sidebar-option h2 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+.sidebar-option:hover {
+    background-color: rgb(243, 240, 240);
+    border: none;
+    transition: color 100ms ease-out;
+    border-radius: 30px;
+}
+
+.sidebar-option .active {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+   
+}
+.active:hover {
+    background-color:  rgb(42, 150, 250)
+}
+.sidebar_tweet {
+    width: 100%;
+    background-color: rgb(42, 150, 250);
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+}
+.sidebar_tweet:hover {
+    cursor: pointer;
+}
+body {
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+.sidebar {
+    border-right: 1px solid  rgb(243, 240, 240);
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+   
+}
+.feed {
+    flex: 0.5;
+    border-right: 1px solid rgb(243, 240, 240);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+.feed_header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid  rgb(216, 213, 213);
+    padding: 15px 20px;
+}
+.feed_header h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+.feed::-webkit-scroobar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+/* .feed {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+
+} */
+.tweetbox_input img {
+    border-radius: 50%;
+    height: 40px;
+}
+.tweet-box {
+    padding-bottom: 10px;
+    border-bottom: 8px solid rgb(216, 213, 213);
+    padding-right: 10px;
+}
+.tweet-box form {
+    display: flex;
+    flex-direction: column;
+}
+.tweetbox_input {
+    display: flex;
+    padding: 20px;
+}
+.tweetbox_input input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.tweetbox_tweetButton{
+    background-color:  rgb(42, 150, 250);
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+
+}
+/* post */
+.post_avatar img {
+    border-radius: 50%;
+    height: 40px;
+}
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid  rgb(216, 213, 213);
+    padding-bottom: 10px;
+    
+}
+.post_body img {
+    width: 450px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.post_footer .material-symbols-outlined {
+    font-weight: bold;
+}
+.post_badge {
+    font-size: 14px;
+    color: rgb(6, 127, 240);
+    margin-right: 5px;
+}
+.post_headerspecial {
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+
+}
+.post_headertext h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.post_headerdescrption {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.post_body {
+    flex: 1;
+    padding: 10px;
+}
+.post_avatar {
+    padding: 20px;
+}
+.widgets {
+    flex: 0.3;
+
+}
+.widgets_input {
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 240, 240);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.widgets_input input {
+    border: none;
+    background-color:rgb(243, 240, 240);
+    outline: none;
+}
+.widgets .searchicon {
+    color:rgb(221, 215, 215);
+}
+.widgets-widgetcontainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+.widgets-widgetcontainer h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
